@@ -1,0 +1,20 @@
+.love {
+    background: linear-gradient(45deg, rgb(35, 8, 189), rgb(87, 0, 128));
+    height: 300px;
+    width: 500px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+}
+
+@media (max-width: 576px) {
+    .love {
+        background: linear-gradient(45deg, rgb(35, 8, 189), rgb(87, 0, 128));
+        height: 263px;
+        width: 332px;
+    }
+}
